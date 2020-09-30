@@ -1,0 +1,48 @@
+/* ===========typography============ */
+body{
+  border:1px solid grey;
+  background-color: rgb(212, 211, 211);
+}
+.grey-col{
+  color:grey;
+  border-bottom: 1px solid rgb(212, 211, 211);
+
+  text-align: center
+}
+
+.filter-section{
+  background-color: whitesmoke;
+  margin:auto;
+  padding:2em;
+}
+
+
+/* layout */
+.container-flex{
+  display:inline-flex;
+  flex-direction:row;
+  justify-content: center;
+  padding:1.5em;
+}
+.container{
+  max-width:70%;
+  margin:auto;
+
+}
+/* view after 700px desktop view*/
+@media (min-width:700px){
+ .container{
+   max-width: 100%;
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: top; 
+} 
+.filter-section{
+  max-width: 25%;
+  margin:1em;
+}
+.card-section{
+  max-width: 70%;
+  margin:1em;
+}
+}

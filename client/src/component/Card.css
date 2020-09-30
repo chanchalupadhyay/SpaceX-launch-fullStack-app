@@ -1,0 +1,47 @@
+ .card-container{
+  display:inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+   padding:0.1em;  
+}  
+.card{
+  width: 20rem;
+  height: 20rem;
+  padding: 0.1rem;
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: white;
+  border-radius: 0.5rem;
+  } 
+ 
+img{
+background-color: rgb(185, 184, 184);
+max-width:50% ;
+display: block;
+margin:auto;
+margin-bottom: 1.5em;
+}   
+
+@media (min-width:1024px) and (max-width:1440px){
+    
+    .card{
+        margin:0;
+        width:15em;
+        height: 20em;
+
+    }
+    .card-container{
+        max-width:100%
+    }
+} 
+@media (min-width:700px) and (max-width:1024px){
+    
+    .card{
+        margin:0;
+        width:20em;
+        height: 20em;
+    }
+    .card-container{
+        max-width:60%
+    }
+} 
