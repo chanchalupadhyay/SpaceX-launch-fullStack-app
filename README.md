@@ -22,11 +22,10 @@ In the project directory, you can run:
 
 `npm run dev`
 Runs both the client app and the server app in development mode.
-Open http://localhost:6000 to view the client in the browser.
+Open http://localhost:6000 to view the project in the browser.
 
 `npm start`
 Runs just the client app in development mode.
 Open http://localhost:3000 to view the client in the browser.
 
-`node server.js`
-Runs just the server in development mode.
+
