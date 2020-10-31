@@ -28,5 +28,7 @@ Open http://localhost:6000 to view the project in the browser.
 Runs just the client app in development mode.
 Open http://localhost:3000 to view the client in the browser.
 
+## **ScreenShot **
 
-<img width="960" alt="x space img" src="https://user-images.githubusercontent.com/62138879/97775531-7016a800-1b87-11eb-88e8-f0a18d3ec345.PNG">
+
+<img width="500" alt="x space img" src="https://user-images.githubusercontent.com/62138879/97775531-7016a800-1b87-11eb-88e8-f0a18d3ec345.PNG">
